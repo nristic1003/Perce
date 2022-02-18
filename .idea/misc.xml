@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/drawable/selector.xml" value="0.165" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/activity_detalji_knjiga.xml" value="0.33" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/activity_index.xml" value="0.2" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/activity_preporucene.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/activity_registracija.xml" value="0.2682291666666667" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/activity_user_info.xml" value="0.2" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/adapter_komentari.xml" value="0.22" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/adapter_preporucene.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/adapter_view_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/custom_sppiner.xml" value="0.2" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/fragment_first.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/fragment_second.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/komentar_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/komentari_adapter.xml" value="0.2598958333333333" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/ocene_adapter.xml" value="0.25" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/pocetna_layout.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/spinner_layout.xml" value="0.3125" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/layout/star_rating.xml" value="0.22" />
+        <entry key="..\:/Users/Nikola/AndroidStudioProjects/PKI/app/src/main/res/menu/menu_navigation.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

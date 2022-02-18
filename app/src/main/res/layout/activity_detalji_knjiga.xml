@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DetaljiKnjigaActivity">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/detaljislika"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/popustKnjige"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_column="2"
+            android:layout_gravity="right|top"
+            android:layout_margin="5dp"
+            android:background="#eb3349"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            app:layout_constraintDimensionRatio="1:1"
+
+            />
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <TableRow android:layout_marginLeft="45dp">
+
+            <TextView
+                android:id="@+id/naslovDetalji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="nalsov"
+                android:textSize="20dp"
+
+                ></TextView>
+
+        </TableRow>
+
+        <TableRow android:layout_marginLeft="45dp">
+
+            <TextView
+                android:id="@+id/detaljiAutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor"
+                android:textSize="20dp"></TextView>
+        </TableRow>
+
+        <TableRow android:layout_marginLeft="45dp">
+
+            <TextView
+                android:id="@+id/detaljiGodina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Godina"
+                android:textSize="20dp"></TextView>
+
+        </TableRow>
+
+        <TableRow android:layout_marginLeft="45dp">
+
+            <TextView
+                android:id="@+id/detaljiOcena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ocena"
+                android:textSize="20dp"></TextView>
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dugmePreporuka"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/PreporukaButton"
+            android:text="Preporuci"></Button>
+
+        <Button
+            android:id="@+id/dugmeOcena"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/OceniButton"
+            android:text="Oceni"></Button>
+
+        <Button
+            android:id="@+id/dugmeKomentar"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/KomentarisiButton"
+            android:text="Komentarisi"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prikaziKomentare"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@color/white"
+            android:text="komentari"
+            android:textColor="@color/textColor"
+            android:textSize="12dp"></Button>
+
+        <Button
+            android:id="@+id/prikaziOcene"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@color/white"
+            android:text="prikazi\nOcene"
+            android:textColor="@color/textColor"
+            android:textSize="12dp"></Button>
+
+        <Button
+            android:id="@+id/prikaziOpis"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@color/white"
+            android:text="opis"
+            android:textColor="@color/textColor"
+            android:textSize="12dp"></Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tektPrikaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Komentari"
+        android:textSize="22dp"
+
+
+        android:visibility="gone"></TextView>
+
+    <ListView
+        android:id="@+id/listViewDetalji"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/naslovOpisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:text="Naslov"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tekstOpisa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:text="Naslov"
+            android:textSize="16dp"
+            android:visibility="gone" />
+    </ScrollView>
+
+
+
+
+</LinearLayout>

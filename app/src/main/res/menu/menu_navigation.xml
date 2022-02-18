@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Pocetna"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/suggestions"
+        android:title="Preporucene"
+        android:icon="@drawable/ic_menu_book"/>
+
+    <item
+        android:id="@+id/userInfo"
+        android:title="Profil"
+        android:icon="@drawable/ic_acount_circle"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Odjavi se"
+        android:icon="@drawable/ic_logout"/>
+
+
+</menu>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prijavljivanje na sistem"
+        android:layout_marginBottom="40dp"
+        android:textSize="34dp"></TextView>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        >
+        <TableRow>
+            <TextView android:text="Korisnicko ime:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:id="@+id/korisnik"
+                android:layout_marginLeft="25dp"
+
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+
+                android:gravity="center"
+                android:id="@+id/korIme"
+                >
+            </EditText>
+
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Lozinka:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="25dp"
+                >
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:id="@+id/lozinka"
+                >
+            </EditText>
+        </TableRow>
+    </TableLayout>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Prijavite se"
+                android:layout_gravity="center"
+                android:onClick="prijavaNaSistem"
+                android:id="@+id/prijava"
+                ></Button>
+
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="kreiraj nalog"
+                android:gravity="center"
+                android:backgroundTint="#1F1C2C"
+                android:id="@+id/kreirajNalog"
+                ></Button>
+
+
+
+</LinearLayout>

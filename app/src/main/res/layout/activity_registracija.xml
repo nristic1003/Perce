@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistracijaActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registracija"
+        android:textSize="34dp">
+    </TextView>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ime"
+                android:textSize="22dp">
+            </TextView>
+        </TableRow>   <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/firstname"
+                >
+            </EditText>
+        </TableRow>    <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prezime"
+                android:textSize="22dp">
+            </TextView>
+        </TableRow>   <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/lastname"
+                >
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Korisnicko ime"
+                android:textSize="22dp">
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/username"
+                >
+            </EditText>
+        </TableRow>        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sifra"
+                android:textSize="22dp">
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/password"
+                >
+            </EditText>
+        </TableRow>      <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adresa"
+                android:textSize="22dp">
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/address"
+                >
+            </EditText>
+        </TableRow>      <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontakt"
+                android:textSize="22dp">
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/contact"
+                >
+            </EditText>
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:text="Kreiraj nalog"
+                android:id="@+id/noviNalog"
+                >
+
+            </Button>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>
